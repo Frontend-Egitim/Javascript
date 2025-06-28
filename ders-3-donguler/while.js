@@ -9,20 +9,34 @@
 
 // // break; // kır -> akıştan çıkıyor (döngü bitiyor)
 
-sayac = 1;
-toplam = 0;
+// sayac = 1;
+// toplam = 0;
 
-while (sayac <= 20) {
-  if (sayac === 10) {
-    sayac++;
-    continue;
-  } else if (sayac % 2 === 0) {
-    toplam = toplam + sayac;
-    sayac++;
-  }
+// while (sayac <= 20) {
+//   if (sayac === 10) {
+//     sayac++;
+//     continue;
+//   } else if (sayac % 2 === 0) {
+//     toplam = toplam + sayac;
+//     sayac++;
+//   }
 
-  sayac++;
-  continue;
+//   sayac++;
+//   continue;
+// }
+
+// console.log(toplam);
+
+// let a = 12;
+
+// while (a < 20) {
+//   // ....
+//   // ....
+
+//   console.log(a);
+//   a++;
+// }
+
+for (let i = 5; i < 10; i++) {
+  console.log(i * 3);
 }
-
-console.log(toplam);
